@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2024-05-09T06:57:34.533Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="24.3.1" etag="isOZT_h35VaxD63WtlYx" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-09T07:07:17.903Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="aHzMl5qo5geeq7k8NmAN" version="24.3.1" type="github">
   <diagram name="페이지-1" id="PKzyBVGIobVoIrA7sYu8">
-    <mxGraphModel>
+    <mxGraphModel dx="1164" dy="1108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3_SzkI_1x_XxtBsuIatp-1" value="물리를 사용하는 게임 오브젝트" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="360" width="200" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="3_SzkI_1x_XxtBsuIatp-2" value="Mover" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="3_SzkI_1x_XxtBsuIatp-1">
+          <mxGeometry x="30" y="40" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3_SzkI_1x_XxtBsuIatp-3" value="SetVelocity()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="3_SzkI_1x_XxtBsuIatp-2">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3_SzkI_1x_XxtBsuIatp-4" value="StopMove()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="3_SzkI_1x_XxtBsuIatp-2">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3_SzkI_1x_XxtBsuIatp-6" value="물리를 사용하지 않는 게임 오브젝트" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="360" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="3_SzkI_1x_XxtBsuIatp-7" value="MoverByTransform" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="3_SzkI_1x_XxtBsuIatp-6">
+          <mxGeometry x="10" y="40" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="3_SzkI_1x_XxtBsuIatp-8" value="StartMove()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="3_SzkI_1x_XxtBsuIatp-7">
+          <mxGeometry y="30" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3_SzkI_1x_XxtBsuIatp-9" value="StopMove()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="3_SzkI_1x_XxtBsuIatp-7">
+          <mxGeometry y="60" width="210" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
